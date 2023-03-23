@@ -1,5 +1,8 @@
 # Quick start guide for running CESM 1.2.2 on Burgundy
 
+[There are some Linux commands that we will use soon (Click me)](command.md)
+
+
 ## 1)	Deciding your working directory
 First, you need to decide on the working directory. You are suggested to install and run CESM in the directory /scratch/Course/see6212/**_username_**, where **_username_** is your assigned username on Burgundy.
 
