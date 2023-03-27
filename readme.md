@@ -33,7 +33,7 @@ Initial condition is required to solve differential equations, so we need to pro
 To create a case, we need to specify the component set and resolution of the components. In this practical session, we choose the component set “FRM” and resolution “f45_g37”.
 Enter the following commands:
 ```
-cd cesm1_2_2/script
+cd cesm1_2_2/scripts
 ./create_newcase -case $CESMHOME/cesm_case/FRM_f45_g37 -compset FRM -res f45_g37 -mach burgundy
 ```
 A new directory specified in the option “-case” is created, and necessary files are copied to this directory automatically. You can choose any name for this directory. You should see “Successfully created the case for burgundy” as the last line (and something similar to the following) if the creation of new case is successful.
@@ -60,7 +60,7 @@ Enter the following command:
 ```
 ./FRM_f45_g37.build
 ```
-It should take about 10–12 minutes to finish building the executables. If the model is successfully built, you can see “CESM BUILDEXE SCRIPT HAS FINISHED SUCCESSFULLY” as the last line (and the following):
+It should take about 10–17 minutes to finish building the executables, depending on the number of users utilizing the cluster. If the model is successfully built, you can see “CESM BUILDEXE SCRIPT HAS FINISHED SUCCESSFULLY” as the last line (and the following):
 ![Picture3](https://user-images.githubusercontent.com/107025929/227130927-53b93112-1a5e-4225-a041-28e7cc0270a3.png)
 
 
